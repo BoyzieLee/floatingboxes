@@ -1,0 +1,26 @@
+.octodex {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.authors {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.octocat {
+  border: 1px solid black
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.image-footer {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
