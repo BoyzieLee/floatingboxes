@@ -1,26 +1,33 @@
 .octodex {
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  float: left;
+  margin: 10%;
 }
 
-.authors {
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  float: left;
-}
 .octocat {
-  border: 1px solid black
-  width: 100px;
-  height: 100px;
-  float: left;
+  border: 3px solid black;
+  display: inline-block;
+  position: relative;
 }
 
-.image-footer {
+/*this are the main 3 pictures*/
+.octocat img {
   border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  float: left;
+  width: 33%;
+  height: 33%;
+}
+
+
+
+/*this are the small "icon" pictures*/
+.image-caption {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+}
+
+/*this shrinks the "icon" pictures also*/
+.image-footer {
+  margin: 0;
+  height: 50%;
+
 }
