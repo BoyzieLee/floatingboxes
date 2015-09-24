@@ -24,11 +24,10 @@
 /*this are the small "icon" pictures*/
 .image-caption {
   margin-left: 10%;
-  text-align: right;
-  width: 20%;
-  height: 20%;
+  width: 20px;
+  height: 20px;
   padding-left: 50px;
-  display: inline-block;
+  display: inline;
 }
 
 span {
