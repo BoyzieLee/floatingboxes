@@ -1,33 +1,48 @@
 .octodex {
-  margin: 10%;
+  margin: 0;
 }
 
 .octocat {
   border: 3px solid black;
-  display: inline-block;
+  float: left;
+  margin-left: 1%;
   position: relative;
 }
+  /*I may be able to get rid of the inline block*/
 
-/*this are the main 3 pictures*/
 .octocat img {
+  margin-left: 3%;
+  max-width: 30px;
   border: 1px solid black;
-  width: 33%;
-  height: 33%;
-}
-
-
-
-/*this are the small "icon" pictures*/
-.image-caption {
-  text-align: center;
-  width: 20%;
-  height: 20%;
-  display: inline-block;
 }
 
 /*this shrinks the "icon" pictures also*/
 .image-footer {
-  margin: 0;
-  height: 50%;
+  float: left;
+}
 
+/*this are the small "icon" pictures*/
+.image-caption {
+  margin-left: 10%;
+  text-align: right;
+  width: 20%;
+  height: 20%;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+span {
+  color: grey;
+}
+.image-number {
+  margin-left: 12px;
+  float: left;
+}
+
+.authors {
+  display: inline-block;
+  margin-left: 10px;
+}
+.authors img {
+  float:right;
 }
