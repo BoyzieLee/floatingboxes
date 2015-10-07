@@ -2,46 +2,47 @@
   margin: 0;
 }
 
+/*this are the small "icon" pictures*/
+
 .octocat {
-  border: 3px solid black;
+  max-width: 350px;
   float: left;
-  margin-left: 1%;
-  position: relative;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
 }
   /*I may be able to get rid of the inline block*/
 
 .octocat img {
-  margin-left: 3%;
-  max-width: 30px;
-  border: 1px solid black;
-}
-
-/*this shrinks the "icon" pictures also*/
-.image-footer {
-  float: left;
-}
-
-/*this are the small "icon" pictures*/
-.image-caption {
-  margin-left: 10%;
-  width: 20px;
-  height: 20px;
-  padding-left: 50px;
-  display: inline;
-}
-
-span {
-  color: grey;
-}
-.image-number {
-  margin-left: 12px;
-  float: left;
+  width: 350px;
+  border: 1px solid gray;
+  margin-left: 1px;
 }
 
 .authors {
+  padding: 0;
   display: inline-block;
-  margin-left: 10px;
+  vertical-align: middle;
 }
+
 .authors img {
-  float:right;
+  width: 20px;
+  float: right;
+  display: inline-block;
+  margin-top: 3px;
 }
+
+.image-number {
+  display: inline-block;
+  color: gray;
+  vertical-align: middle;
+}
+/*this shrinks the "icon" pictures also*/
+.image-footer {
+  position: relative;
+}
+
+.image-footer {
+  border-width: 5px 5px 0 5px;
+}
+
