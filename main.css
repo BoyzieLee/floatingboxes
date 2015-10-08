@@ -10,6 +10,7 @@
   margin-right: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid gray;
+  list-style: none;
 }
   /*I may be able to get rid of the inline block*/
 
@@ -23,19 +24,25 @@
   padding: 0;
   display: inline-block;
   vertical-align: middle;
+  list-style: none;
+
 }
 
 .authors img {
   width: 20px;
+  display: inline;
   float: right;
-  display: inline-block;
   margin-top: 3px;
+  text-align: -webkit-match-parent;
+  list-style: none;
 }
 
 .image-number {
-  display: inline-block;
+  float: left;
+  margin-right: 20%;
   color: gray;
   vertical-align: middle;
+  text-align: -webkit-match-parent;
 }
 /*this shrinks the "icon" pictures also*/
 .image-footer {
